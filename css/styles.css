@@ -1,240 +1,243 @@
 :root {
-   --title-color: #2E2F42;
-   --text-color: #434455;
-   --footer-text-color: #E7E9FC;
-   --background-color: #F4F4FD;
-   --white-color: #ffffff;
-   --accent-color: #4D5AE5;
+  --title-color: #2e2f42;
+  --text-color: #434455;
+  --footer-text-color: #e7e9fc;
+  --background-color: #f4f4fd;
+  --white-color: #ffffff;
+  --accent-color: #4d5ae5;
 }
 
 body {
-   box-sizing: border-box;
-   font-family: 'Roboto', sans-serif;
-   color: var(--text-color);
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
 }
 
 .list {
-   list-style: none;
+  list-style: none;
 }
 
 .link {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .current {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .hidden {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   border: 0;
-   padding: 0;
-   white-space: nowrap;
-   clip-path: inset(100%);
-   clip: rect(0 0 0 0);
-   overflow: hidden;
- }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .container {
-   max-width: 1158px;
-   margin: 0 auto;
-   padding: 0 15px;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .button {
-   background-color: transparent;
-   cursor: pointer;
-   border-color: transparent;
-   font-family: inherit;
-   border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  border-color: transparent;
+  font-family: inherit;
+  border-radius: 4px;
 }
 
 .section-title {
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 1.11;
-   letter-spacing: 0.02em;
-   color: var(--title-color);
-   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+  text-align: center;
 }
 
 /* _________Header________ */
 .header {
-   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-   padding: 24px 0;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  padding: 24px 0;
 }
 
 .logo {
-   font-family: 'Raleway', sans-serif;
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.33;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: var(--title-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
 }
 
 .logo-span {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .nav-link {
-   font-weight: 600;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: var(--title-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .header-address-link {
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* _________Hero________ */
 .hero {
-   background-color: var(--title-color);
-   padding: 192px 0;
-   text-align: center;
+  background-color: var(--title-color);
+  padding: 192px 0;
+  text-align: center;
 }
 
 .main-title {
-   font-size: 56px;
-   line-height: 1.07;
-   letter-spacing: 0.02em;
-   color: var(--white-color);
-   max-width: 500px;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  max-width: 500px;
 }
 
 .hero-button {
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-   color: var(--white-color);
-   background-color: var(--accent-color);
-   padding: 16px 32px;
-   font-size: 16px;
-   line-height: 1.19;
-   letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
 }
 
 /* _________Qwalities________ */
 .qwalities {
-   padding: 120px 0;
+  padding: 120px 0;
 }
 
 .qwalities-title {
-   font-size: 20px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
-   color: var(--title-color);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 
 .qwalities-item {
-   max-width: 270px;
+  max-width: 270px;
 }
 
 .qwalities-text {
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 /* _________Works________ */
 .works {
-   padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 /* _________Team________ */
 .team {
-   background-color: var(--background-color);
-   padding: 120px 0;
+  background-color: var(--background-color);
+  padding: 120px 0;
 }
 
 .team-list-item {
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-   border-radius: 0px 0px 4px 4px;
-   width: 264px;
-   background-color: var(--white-color);
-   text-align: center;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  width: 264px;
+  background-color: var(--white-color);
+  text-align: center;
 }
 
 /* _________Portfolio________ */
 .portfolio {
-   padding: 96px 0 120px 0;
+  padding: 96px 0 120px 0;
 }
 
 .portfolio-filters {
-   margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-title {
-   font-size: 20px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
-   color: var(--title-color);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 
 .portfolio-item {
-   border: 0.5px solid #F4F4FD;
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-   width: 360px;
-   height: 420px;
+  border: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  width: 360px;
+  height: 420px;
 }
 
 .portfolio-text {
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 .portfolio-button {
-   border: 1px solid #E7E9FC;
-   background-color: var(--background-color);
-   color: var(--accent-color);
-   font-weight: 700;
-   line-height: 1.5;
-   font-size: 16px;
-   letter-spacing: 0.04em;
-   padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  background-color: var(--background-color);
+  color: var(--accent-color);
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  padding: 12px 24px;
 }
 
-.portfolio-button:hover, 
+.portfolio-button:hover,
 .portfolio-button:focus {
-   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-   background-color: var(--accent-color);
-   color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 /* _________Footer________ */
 .footer {
-   background-color: var(--title-color);
-   padding: 100px 0;
+  background-color: var(--title-color);
+  padding: 100px 0;
 }
 
 .footer-logo {
-   color: var(--background-color);
+  color: var(--background-color);
 }
 
 .footer-text {
-   color: var(--footer-text-color);
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   max-width: 270px;
+  color: var(--footer-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 270px;
 }
