@@ -1,3 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 :root {
   --title-color: #2e2f42;
   --text-color: #434455;
@@ -15,6 +41,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
@@ -50,10 +78,10 @@ body {
   border-color: transparent;
   font-family: inherit;
   border-radius: 4px;
+  text-align: center;
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -120,16 +148,18 @@ body {
   letter-spacing: 0.02em;
   color: var(--white-color);
   max-width: 500px;
+  display: block;
 }
 
 .hero-button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--white-color);
   background-color: var(--accent-color);
-  padding: 16px 32px;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
 }
 
 /* _________Qwalities________ */
@@ -195,7 +225,6 @@ body {
   border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   width: 360px;
-  height: 420px;
 }
 
 .portfolio-text {
